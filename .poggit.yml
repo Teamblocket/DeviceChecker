@@ -4,5 +4,5 @@ branches:
 projects:
   DeviceChecker:
     path: ""
-    icon: "icon.png"
+    icon: "Icon.png"
 ...
