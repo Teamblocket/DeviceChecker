@@ -1,0 +1,16 @@
+name: DeviceChecker
+main: DeviceChecker\Main
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11, 3.0.0-ALPHA12]
+version: 0.0.0
+commands:
+description: Player lying bout' the device (s)he's on? Check them out with /device!
+author: Angel
+commands:
+  device:
+    description: Check a player's OS!
+    default: false
+    aliases: ["dc", "devicecheck"]
+
+permissions:
+  devicecheck.use:
+    default: false
